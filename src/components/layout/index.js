@@ -1,7 +1,7 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
-
-import Header from "./header/"
+import Header from "../header"
+import './index.scss'
 
 export default function Layout({ children }) {
   return (
